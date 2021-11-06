@@ -1,0 +1,9 @@
+<?php
+/**
+ * @var \Tinik\Profit\Block\Profit $block
+ * @var \Tinik\Profit\ViewModel\Profit $profit
+ */
+$profit = $block->getData('profit');
+?>
+
+<div>Profit:<br><?= $profit->getProfit() ?>%</div>
